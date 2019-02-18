@@ -11,6 +11,7 @@ class Token {
       Session::delete($tokenName);
       return true;
     }
+    
     return false;
   }
 }
